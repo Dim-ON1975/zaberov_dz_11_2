@@ -1,18 +1,18 @@
 def text_upper(text: str) -> str:
     """
-    Функция, которая переводит все буквы текста
-    в верхний регистр, т.е. делает их заглавными.
-    :param text: строка, str
-    :return: строка в верхнем регистре, str
+    A function that translates all letters of text
+    in upper case, i.e. makes them capital
+    :param text: string
+    :return: string in uppercase
     """
     return text.upper()
 
 
 def text_title(text: str) -> str:
     """
-    Функция, которая делает заглавными
-    первые буквы каждого слова
-    :param text: строка, str
-    :return: строка из слов, начинающихся с заглавных букв, str
+    A function that makes capital
+    the first letters of each word
+    : param text: string
+    : return: string of words starting with capital letters
     """
     return text.title()
